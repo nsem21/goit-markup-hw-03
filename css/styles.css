@@ -33,9 +33,9 @@ body{
     padding: 0;
     list-style: none;
 }
-a {
+/*a {
     display: inherit;
-}
+}*/
 h1,
 h2,
 h3,
@@ -46,10 +46,10 @@ p {
 img {
     display: block;
 }
-header {
+/*header {
     padding-top: 25px;
     padding-bottom: 25px;
-}
+}*/
 .head-container,
 .container {
     width: 1200px;
@@ -59,6 +59,9 @@ header {
     margin-left: auto;
 }
 .head-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
     display: flex;
     align-items: baseline;
 
@@ -115,6 +118,7 @@ header {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .hero {
     background-color: var(--backcolor);
@@ -147,6 +151,9 @@ header {
     background-color: var(--accent-color);
     width: 200px;
     height: 50px;
+
+    border: transparent;
+    border-radius: 4px;
 
     color: var(--first-color);
     font-weight: 700;
@@ -302,8 +309,6 @@ footer{
 .works li {
     width: calc(100%/3-20px);
     /*background-color: teal;*/
-}
-.works li{
     margin-bottom: 30px;
 }
 .works li:nth-child(-n+3) {
