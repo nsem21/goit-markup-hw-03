@@ -329,6 +329,7 @@ footer{
 
     margin-top: 20px;
     margin-bottom: 4px;
+    margin-left: 24px
 }
 .works-type{
     color: var(--third-color);
@@ -339,5 +340,7 @@ footer{
     
     letter-spacing: var(--space-measure);
 
+    margin-top: 0;
     margin-bottom: 20px;
+    margin-left: 24px;
 }
