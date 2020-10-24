@@ -50,6 +50,13 @@ img {
     padding-top: 25px;
     padding-bottom: 25px;
 }*/
+.banner-title,
+.section-title,
+.values-title,
+.works-title {
+    padding: 0;
+    margin: 0;
+}
 .head-container,
 .banner,
 .container {
