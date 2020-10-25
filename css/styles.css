@@ -310,11 +310,14 @@ footer{
 }
 .button-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
-    padding-right: 295px;
-    padding-left: 295px;
+    /*padding-right: 295px;
+    padding-left: 295px;*/
     margin-bottom: 50px;
+}
+.button-list li:not(:last-child) {
+    margin-right: 8px;
 }
 .works {
     display: flex;
